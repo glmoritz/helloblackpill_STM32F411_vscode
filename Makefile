@@ -181,7 +181,7 @@ $(BUILD_DIR):
 #######################################
 clean:
 ifeq ($(OS),Windows_NT)
-    rd /s /q $(BUILD_DIR)
+	rd /s /q $(BUILD_DIR)
 else
 	rm -fR $(BUILD_DIR)    
 endif
