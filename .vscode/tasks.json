@@ -6,15 +6,9 @@
         {
             "label": "build",
             "type": "shell",
-            "command": "make",   
-            "windows": {
-                "command": "./make_multicore.bat",   
-            },            
-            "linux": {
-                "command": "./make_multicore.sh" 
-              },                        
+            "command": "make",
             "args": [
-                "-j6"
+                ""
             ],
             "group": "build",
             "presentation": {

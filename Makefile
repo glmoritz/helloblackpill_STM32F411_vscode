@@ -117,6 +117,11 @@ C_INCLUDES =  \
 -IDrivers/CMSIS/Device/ST/STM32F4xx/Include \
 -IDrivers/CMSIS/Include
 
+ifeq ($(OS),Windows_NT)
+	MAKEFLAGS += -j$(nproc)
+else
+	MAKEFLAGS += -j$(nproc)
+endif
 
 # compile gcc flags
 ASFLAGS = $(MCU) $(AS_DEFS) $(AS_INCLUDES) $(OPT) -Wall -fdata-sections -ffunction-sections
