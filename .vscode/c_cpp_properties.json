@@ -9,16 +9,17 @@
                 "USE_HAL_DRIVER",
                 "STM32F411xE"
             ],
-            "compilerPath": "C:\\arm-gcc\\tools\\arm-gnu-toolchain-11.3.rel1-mingw-w64-i686-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe",           
+            "compilerPath": "C:\\arm-gcc\\tools\\arm-gnu-toolchain-11.3.rel1-mingw-w64-i686-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe",
             "cStandard": "c11",
             "cppStandard": "gnu++14",
-            "intelliSenseMode": "gcc-arm",      
+            "intelliSenseMode": "gcc-arm",
             "compilerArgs": [
                 "-mcpu=cortex-m4",
                 "-mthumb",
                 "-mfpu=fpv4-sp-d16",
                 "-mfloat-abi=hard"
-            ]            
+            ],
+            "configurationProvider": "ms-vscode.makefile-tools"
         }
     ],
     "version": 4

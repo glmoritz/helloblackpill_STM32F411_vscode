@@ -59,6 +59,25 @@ void Error_Handler(void);
 /* Private defines -----------------------------------------------------------*/
 #define KIT_LED_Pin GPIO_PIN_13
 #define KIT_LED_GPIO_Port GPIOC
+#define LED_1_Pin GPIO_PIN_3
+#define LED_1_GPIO_Port GPIOA
+#define LED_2_Pin GPIO_PIN_4
+#define LED_2_GPIO_Port GPIOA
+#define LED_3_Pin GPIO_PIN_5
+#define LED_3_GPIO_Port GPIOA
+#define LED_4_Pin GPIO_PIN_6
+#define LED_4_GPIO_Port GPIOA
+#define LED_5_Pin GPIO_PIN_7
+#define LED_5_GPIO_Port GPIOA
+#define BUTTON_2_Pin GPIO_PIN_12
+#define BUTTON_2_GPIO_Port GPIOB
+#define HCSR04_TRIGGER_Pin GPIO_PIN_13
+#define HCSR04_TRIGGER_GPIO_Port GPIOB
+#define BUTTON_1_Pin GPIO_PIN_15
+#define BUTTON_1_GPIO_Port GPIOB
+#define HCSR04_ECHO_Pin GPIO_PIN_6
+#define HCSR04_ECHO_GPIO_Port GPIOB
+
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
